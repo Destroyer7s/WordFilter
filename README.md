@@ -73,10 +73,10 @@ Removed words saved to removed_words.txt
 
 - **Delay in Live Countdown**: You can adjust the delay in the live countdown by modifying the `time.sleep` value in the script.
 
+---
 
 
-
-Acknowledgments:
+# Acknowledgments:
 Cdedit for wordlist.txt:
  - https://github.com/danielmiessler
 
