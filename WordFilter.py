@@ -1,12 +1,11 @@
-import re  
-import time  
+import re 
 
 def replace_bad_words(data, bad_words):
     count = 0  # bad word count
     op = data  # output starts as the original data
-    removed_words = []  # keep track of the words we're removing
+    removed_words = []  # words we're removing
 
-    # function to generate a regex pattern for intentional misspellings
+    # generate a regex pattern for intentional misspellings
     def expand_bad_word_to_include_intentional_misspellings(word):
         chars = list(word)
         op = "[" + "][".join(chars) + "]"  
@@ -49,15 +48,13 @@ def replace_bad_words(data, bad_words):
             output = pre + '*' * len(word) + post
             op = op.replace(match.group(), output)
             count += 1
-            print(f"\rReplaced {count} bad word(s)...", end='', flush=True)
-            time.sleep(0.1)  # simulate live countdown
 
     with open("removed_words.txt", 'w') as removed_words_file:
         removed_words_file.write("\n".join(removed_words))
 
     return op, count
 
-# read bad words from a file
+# load words to remove from file
 def load_bad_words_from_file(file_path):
     try:
         with open(file_path, 'r') as bad_words_file:
@@ -67,7 +64,7 @@ def load_bad_words_from_file(file_path):
         print("Error: Bad words file not found. Please check the file path.")
         return []
 
-# function to get user input for file paths
+# get file paths
 def get_user_input():
     file_path = input("Enter the path of the file to filter: ")
     bad_words_file_path = input("Enter the path of the bad words file: ")
