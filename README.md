@@ -3,7 +3,6 @@
 
 
 
-```markdown
 # Word Filter Python Script
 
 ## Overview
