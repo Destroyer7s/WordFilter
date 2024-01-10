@@ -1,17 +1,18 @@
 # WordFilter
  Removes potentially unwanted words from a text file
-Certainly! Here's the README in Markdown format:
+
+
 
 ```markdown
 # Word Filter Python Script
 
 ## Overview
 
-This Python script is designed to filter out offensive words and phrases from a given text file. The script uses a list of bad words and employs a flexible pattern matching mechanism to identify and replace variations of these words, including intentional misspellings and character substitutions.
+`WordFilter.py` is a Python script designed to filter out offensive words and phrases from a given text file. The script uses a list of bad words from `badwords.txt` and employs a flexible pattern matching mechanism to identify and replace variations of these words, including intentional misspellings and character substitutions. Additionally, a list of good words from `goodwords.txt` can be used for reference.
 
 ## Features
 
-- **Dynamic Bad Word Filtering**: The script dynamically identifies bad words from a provided list and applies filtering to the input text file.
+- **Dynamic Bad Word Filtering**: The script dynamically identifies bad words from `badwords.txt` and applies filtering to the input text file.
 
 - **Permutation Handling**: It takes into account intentional misspellings and character substitutions, ensuring that variations of bad words are appropriately filtered.
 
@@ -46,10 +47,10 @@ This Python script is designed to filter out offensive words and phrases from a 
 2. Run the script:
 
    ```bash
-   python word_filter.py
+   python WordFilter.py
    ```
 
-3. Follow the prompts to enter the path of the file to filter and the path of the file containing bad words.
+3. Follow the prompts to enter the path of the file to filter, the path of the file containing bad words (`badwords.txt`), and the path of the file containing good words (`goodwords.txt`).
 
 4. The script will perform the filtering and provide information on the progress, the number of replaced bad words, and the words that were removed.
 
@@ -57,7 +58,8 @@ This Python script is designed to filter out offensive words and phrases from a 
 
 ```bash
 Enter the path of the file to filter: input.txt
-Enter the path of the bad words file: bad_words.txt
+Enter the path of the bad words file: badwords.txt
+Enter the path of the good words file: goodwords.txt
 Filtering in progress...
 Replaced 3 bad word(s)...
 Filtering complete. Filtered data saved to input_filtered.txt
@@ -67,7 +69,8 @@ Removed words saved to removed_words.txt
 
 ## Customization
 
-- **Bad Words List**: Create a text file containing the list of bad words. Each line can contain spaces, and phrases are supported.
+- **Bad Words List**: Update the `badwords.txt` file with the list of bad words. Each line can contain spaces, and phrases are supported.
+
+- **Good Words List**: Update the `goodwords.txt` file with the list of good words. Each line can contain spaces.
 
 - **Delay in Live Countdown**: You can adjust the delay in the live countdown by modifying the `time.sleep` value in the script.
-
