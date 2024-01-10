@@ -59,8 +59,8 @@
 Enter the path of the file to filter: wordlist.txt
 Enter the path of the bad words file: badwords.txt
 Filtering in progress...
-Replaced 274 bad word(s)...
-Filtering complete. Filtered data saved to goodwords.txt_filtered.txt
+
+Filtering complete. Filtered data saved to wordlist.txt_filtered.txt
 Number of replaced bad words: 274
 Removed words saved to removed_words.txt
 ```
