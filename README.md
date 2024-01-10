@@ -77,7 +77,7 @@ Removed words saved to removed_words.txt
 
 
 # Acknowledgments:
-Cdedit for wordlist.txt:
+Credit for wordlist.txt:
  - https://github.com/danielmiessler
 
 Credit for badwords.txt:
