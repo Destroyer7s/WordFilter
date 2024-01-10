@@ -71,14 +71,3 @@ Removed words saved to removed_words.txt
 
 - **Delay in Live Countdown**: You can adjust the delay in the live countdown by modifying the `time.sleep` value in the script.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgments
-
-- The script utilizes regular expressions and string manipulation techniques.
-- Special thanks to OpenAI for providing language models that assist in creating powerful and versatile scripts.
-```
-
-Feel free to use and modify this Markdown template as needed.
