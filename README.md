@@ -1,8 +1,8 @@
 
 # Word Filter Python Script
----
+
  Removes potentially unwanted words from a text file
----
+
 
 
 ## Overview
