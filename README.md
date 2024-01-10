@@ -31,13 +31,13 @@
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/word-filter-python-script.git
+   git clone https://github.com/Destroyer7s/WordFilter.git
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd word-filter-python-script
+   cd WordFilter
    ```
 
 ### Running the Script
