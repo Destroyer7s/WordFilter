@@ -49,7 +49,7 @@
    python WordFilter.py
    ```
 
-3. Follow the prompts to enter the path of the file to filter, the path of the file containing bad words (`badwords.txt`), and the path of the file containing good words (`goodwords.txt`).
+3. Follow the prompts to enter the path of the file to filter, the path of the file containing bad words (`badwords.txt`), and the path of the file containing good words (`wordlist.txt`).
 
 4. The script will perform the filtering and provide information on the progress, the number of replaced bad words, and the words that were removed.
 
@@ -69,6 +69,6 @@ Removed words saved to removed_words.txt
 
 - **Bad Words List**: Update the `badwords.txt` file with the list of bad words. Each line can contain spaces, and phrases are supported.
 
-- **Good Words List**: Update the `goodwords.txt` file with the list of good words. Each line can contain spaces.
+- **Good Words List**: Update the `wordlist.txt` file with the list of good words. Each line can contain spaces.
 
 - **Delay in Live Countdown**: You can adjust the delay in the live countdown by modifying the `time.sleep` value in the script.
