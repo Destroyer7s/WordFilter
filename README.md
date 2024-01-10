@@ -72,3 +72,13 @@ Removed words saved to removed_words.txt
 - **Good Words List**: Update the `wordlist.txt` file with the list of good words. Each line can contain spaces.
 
 - **Delay in Live Countdown**: You can adjust the delay in the live countdown by modifying the `time.sleep` value in the script.
+
+
+
+
+Acknowledgments:
+Cdedit for wordlist.txt:
+ - https://github.com/danielmiessler
+
+Credit for badwords.txt:
+ - https://github.com/zacanger
