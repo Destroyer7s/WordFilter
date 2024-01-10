@@ -15,8 +15,6 @@
 
 - **Permutation Handling**: It takes into account intentional misspellings and character substitutions, ensuring that variations of bad words are appropriately filtered.
 
-- **Live Countdown**: During the filtering process, the script provides a live countdown, indicating the number of replaced bad words.
-
 - **Removed Words Tracking**: The script generates a file named `removed_words.txt`, which contains a list of all words that were removed during the filtering process.
 
 ## Usage
