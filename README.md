@@ -7,7 +7,7 @@
 
 ## Overview
 
-`WordFilter.py` is a Python script designed to filter out offensive words and phrases from a given text file. The script uses a list of bad words from `badwords.txt` and employs a flexible pattern matching mechanism to identify and replace variations of these words, including intentional misspellings and character substitutions. Additionally, a list of good words from `goodwords.txt` can be used for reference.
+`WordFilter.py` is a Python script designed to filter out offensive words and phrases from a given text file. The script uses a list of bad words from `badwords.txt` and employs a flexible pattern matching mechanism to identify and replace variations of these words, including intentional misspellings and character substitutions. Additionally, a list of mixed words from `wordlist.txt` can be used for reference.
 
 ## Features
 
@@ -56,13 +56,12 @@
 ### Example
 
 ```bash
-Enter the path of the file to filter: input.txt
+Enter the path of the file to filter: wordlist.txt
 Enter the path of the bad words file: badwords.txt
-Enter the path of the good words file: goodwords.txt
 Filtering in progress...
-Replaced 3 bad word(s)...
-Filtering complete. Filtered data saved to input_filtered.txt
-Number of replaced bad words: 3
+Replaced 274 bad word(s)...
+Filtering complete. Filtered data saved to goodwords.txt_filtered.txt
+Number of replaced bad words: 274
 Removed words saved to removed_words.txt
 ```
 
